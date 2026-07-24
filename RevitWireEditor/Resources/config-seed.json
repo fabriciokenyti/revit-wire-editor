@@ -1,0 +1,1270 @@
+{
+ "conductorMaterials": [
+  "Alumínio",
+  "Cobre",
+  "Dados",
+  "Fibra Ótica"
+ ],
+ "insulationMaterials": [
+  "Dados",
+  "EPR-XLPE",
+  "PVC"
+ ],
+ "temperatureRatings": [
+  "70",
+  "90",
+  "Dados"
+ ],
+ "conductorSizes": [
+  {
+   "name": "1.5",
+   "diameter": 0.004921259842519685
+  },
+  {
+   "name": "2.5",
+   "diameter": 0.006561679790026247
+  },
+  {
+   "name": "4.0",
+   "diameter": 0.007874015748031496
+  },
+  {
+   "name": "4FO",
+   "diameter": 0.0016404199475065617
+  },
+  {
+   "name": "6.0",
+   "diameter": 0.009514435695538058
+  },
+  {
+   "name": "6FO",
+   "diameter": 0.0
+  },
+  {
+   "name": "10.0",
+   "diameter": 0.012795275590551181
+  },
+  {
+   "name": "16.0",
+   "diameter": 0.016404199475065617
+  },
+  {
+   "name": "25.0",
+   "diameter": 0.021325459317585303
+  },
+  {
+   "name": "35.0",
+   "diameter": 0.024606299212598423
+  },
+  {
+   "name": "50.0",
+   "diameter": 0.02952755905511811
+  },
+  {
+   "name": "70.0",
+   "diameter": 0.034776902887139104
+  },
+  {
+   "name": "95.0",
+   "diameter": 0.0400262467191601
+  },
+  {
+   "name": "120.0",
+   "diameter": 0.04658792650918635
+  },
+  {
+   "name": "150.0",
+   "diameter": 0.05183727034120735
+  },
+  {
+   "name": "185.0",
+   "diameter": 0.0557742782152231
+  },
+  {
+   "name": "240.0",
+   "diameter": 0.06561679790026247
+  },
+  {
+   "name": "AL 2x0.75",
+   "diameter": 0.0
+  },
+  {
+   "name": "AL 2x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "AL 2x1.5",
+   "diameter": 0.0
+  },
+  {
+   "name": "AL 2x1.5+2x0.75",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCE2P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCE3P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCE4P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCE5P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCE6P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCI1P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCI2P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCI3P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCI4P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCI5P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CCI6P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CH.EM",
+   "diameter": 0.0
+  },
+  {
+   "name": "CI10P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CI20P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CI30P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CI50P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CTP-APL10P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CTP-APL20P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CTP-APL30P",
+   "diameter": 0.0
+  },
+  {
+   "name": "CTP-APL50P",
+   "diameter": 0.0
+  },
+  {
+   "name": "FTP4P Cat5e",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 2x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 3x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 3x1.5",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 3x2.5",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 4x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 5x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 10x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 15x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 20x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "PP 25x1.0",
+   "diameter": 0.0
+  },
+  {
+   "name": "RG06",
+   "diameter": 0.0
+  },
+  {
+   "name": "RG11",
+   "diameter": 0.0
+  },
+  {
+   "name": "RG59",
+   "diameter": 0.0
+  },
+  {
+   "name": "UTP4P Cat5e",
+   "diameter": 0.0
+  },
+  {
+   "name": "UTP4P Cat6",
+   "diameter": 0.0
+  },
+  {
+   "name": "UTP4P Cat6a",
+   "diameter": 0.0
+  },
+  {
+   "name": "UTP25P Cat5e",
+   "diameter": 0.0
+  }
+ ],
+ "cableTypes": [
+  {
+   "name": "Cu/EPR-XLPE/0,6-1kV/90°",
+   "conductorMaterial": "Cobre",
+   "insulationMaterial": "EPR-XLPE",
+   "temperatureRating": "90",
+   "coreType": "SingleCore",
+   "usableCableSizes": [
+    "1F-#6.0, N-#6.0, T-#6.0",
+    "1F-#10.0, N-#10.0, T-#10.0",
+    "1F-#16.0, N-#16.0, T-#16.0",
+    "1F-#25.0, N-#25.0, T-#16.0",
+    "1F-#35.0, N-#35.0, T-#25.0",
+    "1F-#50.0, N-#25.0, T-#25.0",
+    "1F-#70.0, N-#70.0, T-#35.0",
+    "1F-#95.0, N-#95.0, T-#50.0",
+    "1F-#120.0, N-#120.0, T-#70.0",
+    "1F-#150.0, N-#150.0, T-#95.0",
+    "1F-#185.0, N-#185.0, T-#95.0",
+    "1F-#240.0, N-#240.0, T-#120.0",
+    "2F-#6.0, N-#6.0, T-#6.0",
+    "2F-#6.0, T-#6.0",
+    "2F-#10.0, N-#10.0, T-#10.0",
+    "2F-#10.0, T-#10.0",
+    "2F-#16.0, N-#16.0, T-#16.0",
+    "2F-#16.0, T-#16.0",
+    "2F-#25.0, N-#25.0, T-#16.0",
+    "2F-#25.0, T-#25.0",
+    "2F-#35.0, N-#35.0, T-#25.0",
+    "2F-#35.0, T-#25.0",
+    "2F-#50.0, N-#25.0, T-#25.0",
+    "2F-#50.0, T-#25.0",
+    "2F-#70.0, N-#70.0, T-#35.0",
+    "2F-#70.0, T-#35.0",
+    "2F-#95.0, N-#95.0, T-#50.0",
+    "2F-#95.0, T-#50.0",
+    "2F-#120.0, N-#120.0, T-#70.0",
+    "2F-#120.0, T-#70.0",
+    "2F-#150.0, N-#150.0, T-#95.0",
+    "2F-#150.0, T-#95.0",
+    "2F-#185.0, N-#185.0, T-#95.0",
+    "2F-#185.0, T-#95.0",
+    "2F-#240.0, N-#240.0, T-#120.0",
+    "2F-#240.0, T-#120.0",
+    "3F-#6.0, N-#6.0, T-#6.0",
+    "3F-#6.0, T-#6.0",
+    "3F-#10.0, N-#10.0, T-#10.0",
+    "3F-#10.0, T-#10.0",
+    "3F-#16.0, N-#16.0, T-#16.0",
+    "3F-#16.0, T-#16.0",
+    "3F-#25.0, N-#25.0, T-#16.0",
+    "3F-#25.0, T-#16.0",
+    "3F-#35.0, N-#35.0, T-#25.0",
+    "3F-#35.0, T-#25.0",
+    "3F-#50.0, N-#25.0, T-#25.0",
+    "3F-#50.0, T-#25.0",
+    "3F-#70.0, N-#70.0, T-#35.0",
+    "3F-#70.0, T-#35.0",
+    "3F-#95.0, N-#95.0, T-#50.0",
+    "3F-#95.0, T-#50.0",
+    "3F-#120.0, N-#120.0, T-#70.0",
+    "3F-#120.0, T-#70.0",
+    "3F-#150.0, N-#150.0, T-#95.0",
+    "3F-#150.0, T-#95.0",
+    "3F-#185.0, N-#185.0, T-#95.0",
+    "3F-#185.0, T-#95.0",
+    "3F-#240.0, N-#240.0, T-#120.0",
+    "3F-#240.0, T-#120.0"
+   ]
+  },
+  {
+   "name": "Cu/PVC/750V/70°",
+   "conductorMaterial": "Cobre",
+   "insulationMaterial": "PVC",
+   "temperatureRating": "70",
+   "coreType": "SingleCore",
+   "usableCableSizes": [
+    "1F-#1.5, N-#1.5",
+    "1F-#1.5, N-#1.5, T-#1.5",
+    "1F-#2.5, N-#2.5",
+    "1F-#2.5, N-#2.5, T-#2.5",
+    "1F-#4.0, N-#4.0",
+    "1F-#4.0, N-#4.0, T-#4.0",
+    "1F-#6.0, N-#6.0, T-#6.0",
+    "1F-#10.0, N-#10.0, T-#10.0",
+    "1F-#16.0, N-#16.0, T-#16.0",
+    "1F-#25.0, N-#25.0, T-#16.0",
+    "1F-#35.0, N-#35.0, T-#25.0",
+    "1F-#50.0, N-#25.0, T-#25.0",
+    "1F-#70.0, N-#70.0, T-#35.0",
+    "1F-#95.0, N-#95.0, T-#50.0",
+    "1F-#120.0, N-#120.0, T-#70.0",
+    "1F-#150.0, N-#150.0, T-#95.0",
+    "1F-#185.0, N-#185.0, T-#95.0",
+    "1F-#240.0, N-#240.0, T-#120.0",
+    "2F-#2.5, T-#2.5",
+    "2F-#4.0, T-#4.0",
+    "2F-#6.0, N-#6.0, T-#6.0",
+    "2F-#6.0, T-#6.0",
+    "2F-#10.0, N-#10.0, T-#10.0",
+    "2F-#10.0, T-#10.0",
+    "2F-#16.0, N-#16.0, T-#16.0",
+    "2F-#16.0, T-#16.0",
+    "2F-#25.0, N-#25.0, T-#16.0",
+    "2F-#25.0, T-#25.0",
+    "2F-#35.0, N-#35.0, T-#25.0",
+    "2F-#35.0, T-#25.0",
+    "2F-#50.0, N-#25.0, T-#25.0",
+    "2F-#50.0, T-#25.0",
+    "2F-#70.0, N-#70.0, T-#35.0",
+    "2F-#70.0, T-#35.0",
+    "2F-#95.0, N-#95.0, T-#50.0",
+    "2F-#95.0, T-#50.0",
+    "2F-#120.0, N-#120.0, T-#70.0",
+    "2F-#120.0, T-#70.0",
+    "2F-#150.0, N-#150.0, T-#95.0",
+    "2F-#150.0, T-#95.0",
+    "2F-#185.0, N-#185.0, T-#95.0",
+    "2F-#185.0, T-#95.0",
+    "2F-#240.0, N-#240.0, T-#120.0",
+    "2F-#240.0, T-#120.0",
+    "3F-#2.5, T-#2.5",
+    "3F-#4.0, T-#4.0",
+    "3F-#6.0, N-#6.0, T-#6.0",
+    "3F-#6.0, T-#6.0",
+    "3F-#10.0, N-#10.0, T-#10.0",
+    "3F-#10.0, T-#10.0",
+    "3F-#16.0, N-#16.0, T-#16.0",
+    "3F-#16.0, T-#16.0",
+    "3F-#25.0, N-#25.0, T-#16.0",
+    "3F-#25.0, T-#16.0",
+    "3F-#35.0, N-#35.0, T-#25.0",
+    "3F-#35.0, T-#25.0",
+    "3F-#50.0, N-#25.0, T-#25.0",
+    "3F-#50.0, T-#25.0",
+    "3F-#70.0, N-#70.0, T-#35.0",
+    "3F-#70.0, T-#35.0",
+    "3F-#95.0, N-#95.0, T-#50.0",
+    "3F-#95.0, T-#50.0",
+    "3F-#120.0, N-#120.0, T-#70.0",
+    "3F-#120.0, T-#70.0",
+    "3F-#150.0, N-#150.0, T-#95.0",
+    "3F-#150.0, T-#95.0",
+    "3F-#185.0, N-#185.0, T-#95.0",
+    "3F-#185.0, T-#95.0",
+    "3F-#240.0, N-#240.0, T-#120.0",
+    "3F-#240.0, T-#120.0"
+   ]
+  },
+  {
+   "name": "Fibra Ótica",
+   "conductorMaterial": "Fibra Ótica",
+   "insulationMaterial": "PVC",
+   "temperatureRating": null,
+   "coreType": "SingleCore",
+   "usableCableSizes": [
+    "Fibra Ótica"
+   ]
+  }
+ ],
+ "cableSizes": [
+  {
+   "name": "1F-#1.5, N-#1.5",
+   "comments": "F+N",
+   "hot": "1.5",
+   "neutral": "1.5",
+   "ground": null,
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 0,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#1.5, N-#1.5, T-#1.5",
+   "comments": "F+N+T",
+   "hot": "1.5",
+   "neutral": "1.5",
+   "ground": "1.5",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#2.5, N-#2.5",
+   "comments": "F+N",
+   "hot": "2.5",
+   "neutral": "2.5",
+   "ground": null,
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 0,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#2.5, N-#2.5, T-#2.5",
+   "comments": "F+N+T",
+   "hot": "2.5",
+   "neutral": "2.5",
+   "ground": "2.5",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#4.0, N-#4.0",
+   "comments": "F+N",
+   "hot": "4.0",
+   "neutral": "4.0",
+   "ground": null,
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 0,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#4.0, N-#4.0, T-#4.0",
+   "comments": "F+N+T",
+   "hot": "4.0",
+   "neutral": "4.0",
+   "ground": "4.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#6.0, N-#6.0, T-#6.0",
+   "comments": "F+N+T",
+   "hot": "6.0",
+   "neutral": "6.0",
+   "ground": "6.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#10.0, N-#10.0, T-#10.0",
+   "comments": "F+N+T",
+   "hot": "10.0",
+   "neutral": "10.0",
+   "ground": "10.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#16.0, N-#16.0, T-#16.0",
+   "comments": "F+N+T",
+   "hot": "16.0",
+   "neutral": "16.0",
+   "ground": "16.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#25.0, N-#25.0, T-#16.0",
+   "comments": "F+N+T",
+   "hot": "25.0",
+   "neutral": "25.0",
+   "ground": "16.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#35.0, N-#35.0, T-#25.0",
+   "comments": "F+N+T",
+   "hot": "35.0",
+   "neutral": "35.0",
+   "ground": "25.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#50.0, N-#25.0, T-#25.0",
+   "comments": "F+N+T",
+   "hot": "50.0",
+   "neutral": "25.0",
+   "ground": "25.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#70.0, N-#70.0, T-#35.0",
+   "comments": "F+N+T",
+   "hot": "70.0",
+   "neutral": "70.0",
+   "ground": "35.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#95.0, N-#95.0, T-#50.0",
+   "comments": "F+N+T",
+   "hot": "95.0",
+   "neutral": "95.0",
+   "ground": "50.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#120.0, N-#120.0, T-#70.0",
+   "comments": "F+N+T",
+   "hot": "120.0",
+   "neutral": "120.0",
+   "ground": "70.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#150.0, N-#150.0, T-#95.0",
+   "comments": "F+N+T",
+   "hot": "150.0",
+   "neutral": "150.0",
+   "ground": "95.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#185.0, N-#185.0, T-#95.0",
+   "comments": "F+N+T",
+   "hot": "185.0",
+   "neutral": "185.0",
+   "ground": "95.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "1F-#240.0, N-#240.0, T-#120.0",
+   "comments": "F+N+T",
+   "hot": "240.0",
+   "neutral": "240.0",
+   "ground": "120.0",
+   "other": null,
+   "nHot": 1,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#2.5, T-#2.5",
+   "comments": "2F+T",
+   "hot": "2.5",
+   "neutral": null,
+   "ground": "2.5",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#4.0, T-#4.0",
+   "comments": "2F+T",
+   "hot": "4.0",
+   "neutral": null,
+   "ground": "4.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#6.0, N-#6.0, T-#6.0",
+   "comments": "2F+N+T",
+   "hot": "6.0",
+   "neutral": "6.0",
+   "ground": "6.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#6.0, T-#6.0",
+   "comments": "2F+T",
+   "hot": "6.0",
+   "neutral": null,
+   "ground": "6.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#10.0, N-#10.0, T-#10.0",
+   "comments": "2F+N+T",
+   "hot": "10.0",
+   "neutral": "10.0",
+   "ground": "10.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#10.0, T-#10.0",
+   "comments": "2F+T",
+   "hot": "10.0",
+   "neutral": null,
+   "ground": "10.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#16.0, N-#16.0, T-#16.0",
+   "comments": "2F+N+T",
+   "hot": "16.0",
+   "neutral": "16.0",
+   "ground": "16.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#16.0, T-#16.0",
+   "comments": "2F+T",
+   "hot": "16.0",
+   "neutral": null,
+   "ground": "16.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#25.0, N-#25.0, T-#16.0",
+   "comments": "2F+N+T",
+   "hot": "25.0",
+   "neutral": "25.0",
+   "ground": "16.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#25.0, T-#25.0",
+   "comments": "2F+T",
+   "hot": "25.0",
+   "neutral": null,
+   "ground": "16.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#35.0, N-#35.0, T-#25.0",
+   "comments": "2F+N+T",
+   "hot": "35.0",
+   "neutral": "35.0",
+   "ground": "25.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#35.0, T-#25.0",
+   "comments": "2F+T",
+   "hot": "35.0",
+   "neutral": null,
+   "ground": "25.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#50.0, N-#25.0, T-#25.0",
+   "comments": "2F+N+T",
+   "hot": "50.0",
+   "neutral": "25.0",
+   "ground": "25.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#50.0, T-#25.0",
+   "comments": "2F+T",
+   "hot": "50.0",
+   "neutral": null,
+   "ground": "25.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#70.0, N-#70.0, T-#35.0",
+   "comments": "2F+N+T",
+   "hot": "70.0",
+   "neutral": "70.0",
+   "ground": "35.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#70.0, T-#35.0",
+   "comments": "2F+T",
+   "hot": "70.0",
+   "neutral": null,
+   "ground": "35.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#95.0, N-#95.0, T-#50.0",
+   "comments": "2F+N+T",
+   "hot": "95.0",
+   "neutral": "95.0",
+   "ground": "50.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#95.0, T-#50.0",
+   "comments": "2F+T",
+   "hot": "95.0",
+   "neutral": null,
+   "ground": "50.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#120.0, N-#120.0, T-#70.0",
+   "comments": "2F+N+T",
+   "hot": "120.0",
+   "neutral": "120.0",
+   "ground": "70.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#120.0, T-#70.0",
+   "comments": "2F+T",
+   "hot": "120.0",
+   "neutral": null,
+   "ground": "70.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#150.0, N-#150.0, T-#95.0",
+   "comments": "2F+N+T",
+   "hot": "150.0",
+   "neutral": "150.0",
+   "ground": "95.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#150.0, T-#95.0",
+   "comments": "2F+T",
+   "hot": "150.0",
+   "neutral": null,
+   "ground": "95.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#185.0, N-#185.0, T-#95.0",
+   "comments": "2F+N+T",
+   "hot": "185.0",
+   "neutral": "185.0",
+   "ground": "95.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#185.0, T-#95.0",
+   "comments": "2F+T",
+   "hot": "185.0",
+   "neutral": null,
+   "ground": "95.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#240.0, N-#240.0, T-#120.0",
+   "comments": "2F+N+T",
+   "hot": "240.0",
+   "neutral": "240.0",
+   "ground": "120.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "2F-#240.0, T-#120.0",
+   "comments": "2F+T",
+   "hot": "240.0",
+   "neutral": null,
+   "ground": "120.0",
+   "other": null,
+   "nHot": 2,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#2.5, T-#2.5",
+   "comments": "3F+T",
+   "hot": "2.5",
+   "neutral": null,
+   "ground": "2.5",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#4.0, T-#4.0",
+   "comments": "3F+T",
+   "hot": "4.0",
+   "neutral": null,
+   "ground": "4.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#6.0, N-#6.0, T-#6.0",
+   "comments": "3F+N+T",
+   "hot": "6.0",
+   "neutral": "6.0",
+   "ground": "6.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#6.0, T-#6.0",
+   "comments": "3F+T",
+   "hot": "6.0",
+   "neutral": null,
+   "ground": "6.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#10.0, N-#10.0, T-#10.0",
+   "comments": "3F+N+T",
+   "hot": "10.0",
+   "neutral": "10.0",
+   "ground": "10.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#10.0, T-#10.0",
+   "comments": "3F+T",
+   "hot": "10.0",
+   "neutral": null,
+   "ground": "10.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#16.0, N-#16.0, T-#16.0",
+   "comments": "3F+N+T",
+   "hot": "16.0",
+   "neutral": "16.0",
+   "ground": "16.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#16.0, T-#16.0",
+   "comments": "3F+T",
+   "hot": "16.0",
+   "neutral": null,
+   "ground": "16.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#25.0, N-#25.0, T-#16.0",
+   "comments": "3F+N+T",
+   "hot": "25.0",
+   "neutral": "25.0",
+   "ground": "16.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#25.0, T-#16.0",
+   "comments": "3F+T",
+   "hot": "25.0",
+   "neutral": null,
+   "ground": "16.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#35.0, N-#35.0, T-#25.0",
+   "comments": "3F+N+T",
+   "hot": "35.0",
+   "neutral": "35.0",
+   "ground": "25.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#35.0, T-#25.0",
+   "comments": "3F+T",
+   "hot": "35.0",
+   "neutral": null,
+   "ground": "25.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#50.0, N-#25.0, T-#25.0",
+   "comments": "3F+N+T",
+   "hot": "50.0",
+   "neutral": "25.0",
+   "ground": "25.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#50.0, T-#25.0",
+   "comments": "3F+T",
+   "hot": "50.0",
+   "neutral": null,
+   "ground": "25.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#70.0, N-#70.0, T-#35.0",
+   "comments": "3F+N+T",
+   "hot": "70.0",
+   "neutral": "70.0",
+   "ground": "35.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#70.0, T-#35.0",
+   "comments": "3F+T",
+   "hot": "70.0",
+   "neutral": null,
+   "ground": "35.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#95.0, N-#95.0, T-#50.0",
+   "comments": "3F+N+T",
+   "hot": "95.0",
+   "neutral": "95.0",
+   "ground": "50.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#95.0, T-#50.0",
+   "comments": "3F+T",
+   "hot": "95.0",
+   "neutral": null,
+   "ground": "50.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#120.0, N-#120.0, T-#70.0",
+   "comments": "3F+N+T",
+   "hot": "120.0",
+   "neutral": "120.0",
+   "ground": "70.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#120.0, T-#70.0",
+   "comments": "3F+T",
+   "hot": "120.0",
+   "neutral": null,
+   "ground": "70.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#150.0, N-#150.0, T-#95.0",
+   "comments": "3F+N+T",
+   "hot": "150.0",
+   "neutral": "150.0",
+   "ground": "95.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#150.0, T-#95.0",
+   "comments": "3F+T",
+   "hot": "150.0",
+   "neutral": null,
+   "ground": "95.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#185.0, N-#185.0, T-#95.0",
+   "comments": "3F+N+T",
+   "hot": "185.0",
+   "neutral": "185.0",
+   "ground": "95.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#185.0, T-#95.0",
+   "comments": "3F+T",
+   "hot": "185.0",
+   "neutral": null,
+   "ground": "95.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#240.0, N-#240.0, T-#120.0",
+   "comments": "3F+N+T",
+   "hot": "240.0",
+   "neutral": "240.0",
+   "ground": "120.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 1,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "3F-#240.0, T-#120.0",
+   "comments": "3F+T",
+   "hot": "240.0",
+   "neutral": null,
+   "ground": "120.0",
+   "other": null,
+   "nHot": 3,
+   "nNeutral": 0,
+   "nGround": 1,
+   "nOther": 0
+  },
+  {
+   "name": "Fibra Ótica",
+   "comments": "",
+   "hot": null,
+   "neutral": null,
+   "ground": null,
+   "other": "4FO",
+   "nHot": 0,
+   "nNeutral": 0,
+   "nGround": 0,
+   "nOther": 1
+  }
+ ]
+}

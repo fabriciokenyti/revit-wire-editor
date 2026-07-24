@@ -1,0 +1,16 @@
+# Build
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+
+# Instalador gerado (Inno Setup)
+installer/Output/
+
+# Binarios do bundle sao gerados pelo build (PostBuild popula Contents/<ver>/).
+# Rode:  dotnet build RevitWireEditor/RevitWireEditor.csproj -c R2026  (e -c R2027)
+# antes de compilar o instalador. O .addin e o PackageContents.xml SAO versionados.
+RevitWireEditor.bundle/Contents/**/*.dll
+RevitWireEditor.bundle/Contents/**/*.deps.json
+RevitWireEditor.bundle/Contents/**/*.pdb

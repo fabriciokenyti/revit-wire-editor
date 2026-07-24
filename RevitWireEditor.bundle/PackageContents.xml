@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PackageContents.xml — manifesto do Revit Bundle (RevitWireEditor)
+  ================================================================
+  Lido pelo Revit na inicializacao. O Revit procura bundles em:
+    • %APPDATA%\Autodesk\ApplicationPlugins\
+    • %ProgramData%\Autodesk\ApplicationPlugins\
+  A pasta-raiz do bundle DEVE terminar em ".bundle".
+
+  Este plugin suporta APENAS Revit 2026 e 2027.
+    Revit 2026 -> .NET 8  (net8.0-windows)
+    Revit 2027 -> .NET 10 (net10.0-windows)
+-->
+<ApplicationPackage
+  SchemaVersion="1.0"
+  AutodeskProduct="Revit"
+  Name="RevitWireEditor"
+  Description="Configura o padrao de condutores e cabos da Engenharia Moderna"
+  AppVersion="1.0.0"
+  FriendlyVersion="1.0.0"
+  ProductCode="{3C1D9E22-4A6B-4F8C-B012-6D5E4C3B2A19}"
+  UpgradeCode="{8F3A2C10-5D4B-4E7A-9C21-7B0E1A2D3F94}"
+  VendorId="ENGM"
+  VendorDescription="Engenharia Moderna"
+  SupportedLocales="Enu"
+  MinimumRevitVersionRequired="2026"
+  OnlineDocumentation="">
+
+  <CompanyDetails
+    Name="Engenharia Moderna"
+    Phone=""
+    Url=""
+    Email="fabricio@engenhariamoderna.com.br" />
+
+  <!-- ── Revit 2026 (net8.0-windows) ── -->
+  <Components Description="RevitWireEditor para Revit 2026">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2026" SeriesMax="R2026" />
+    <ComponentEntry AppName="RevitWireEditor"
+                    Version="1.0.0"
+                    ModuleName="./Contents/2026/RevitWireEditor.addin"
+                    Description="Plugin RevitWireEditor — Revit 2026" />
+  </Components>
+
+  <!-- ── Revit 2027 (net10.0-windows) ── -->
+  <Components Description="RevitWireEditor para Revit 2027">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2027" SeriesMax="R2027" />
+    <ComponentEntry AppName="RevitWireEditor"
+                    Version="1.0.0"
+                    ModuleName="./Contents/2027/RevitWireEditor.addin"
+                    Description="Plugin RevitWireEditor — Revit 2027" />
+  </Components>
+
+</ApplicationPackage>

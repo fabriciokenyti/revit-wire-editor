@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">R2026</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <PlatformTarget>x64</PlatformTarget>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>RevitWireEditor</RootNamespace>
+        <AssemblyName>RevitWireEditor</AssemblyName>
+        <FileAlignment>512</FileAlignment>
+        <Deterministic>true</Deterministic>
+        <!-- Properties\AssemblyInfo.cs e a fonte unica dos atributos de assembly (evita CS0579). -->
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <TargetFrameworkProfile />
+        <LangVersion>latest</LangVersion>
+        <!-- Plugin suporta APENAS Revit 2026 e 2027 (ambos usam a API nova de condutores/cabos). -->
+        <Configurations>R2026;R2027</Configurations>
+    </PropertyGroup>
+
+    <!-- CABLESAPI = simbolo compartilhado: API nova de condutores/cabos (Revit 2026+). -->
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'R2026|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\R2026\</OutputPath>
+        <DefineConstants>DEBUG;R2026;CABLESAPI</DefineConstants>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <RevitVersion>2026</RevitVersion>
+        <WarningLevel>4</WarningLevel>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'R2027|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\R2027\</OutputPath>
+        <DefineConstants>DEBUG;R2027;CABLESAPI</DefineConstants>
+        <!-- Revit 2027 roda em .NET 10 (mudou de net8 no 2025/2026). -->
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <RevitVersion>2027</RevitVersion>
+        <WarningLevel>4</WarningLevel>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <Choose>
+        <When Condition=" '$(Configuration)'=='R2026' ">
+            <ItemGroup>
+                <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+                <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2026.0.0" IncludeAssets="build; compile" PrivateAssets="All" />
+            </ItemGroup>
+        </When>
+        <When Condition=" '$(Configuration)'=='R2027' ">
+            <ItemGroup>
+                <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+                <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2027.0.0" IncludeAssets="build; compile" PrivateAssets="All" />
+            </ItemGroup>
+        </When>
+    </Choose>
+
+    <ItemGroup>
+        <Compile Include="App.cs" />
+        <Compile Include="Command.cs" />
+        <Compile Include="DiagnosticoCommand.cs" />
+        <Compile Include="EmDialog.cs" />
+        <Compile Include="PrepararConfigCommand.cs" />
+        <Compile Include="WireMaterialGateway.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <EmbeddedResource Include="Resources\config-seed.json" />
+        <EmbeddedResource Include="Resources\icon-fiacao.png" />
+        <Content Include="RevitWireEditor.addin">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <Target Name="AfterClean">
+        <Delete Files="$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\RevitWireEditor.addin" />
+        <Delete Files="$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\RevitWireEditor\RevitWireEditor.dll" />
+    </Target>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+        <!-- Deploy de desenvolvimento: copia .dll (subpasta) e .addin para a pasta de Addins do Revit.
+             ContinueOnError: com o Revit aberto o DLL fica bloqueado; nao deve quebrar o build. -->
+        <Exec Command="if exist &quot;$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)&quot; xcopy /Y /i &quot;$(TargetDir)$(TargetName).dll&quot; &quot;$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\$(ProjectName)\&quot;" ContinueOnError="true" />
+        <Exec Command="if exist &quot;$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)&quot; xcopy /Y /i &quot;$(TargetDir)$(TargetName).addin&quot; &quot;$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)&quot;" ContinueOnError="true" />
+        <!-- Popula o bundle (usado pelo instalador Inno): DLL + deps.json na pasta da versao.
+             O .addin do bundle e estatico (versionado no repo), aponta para a DLL na mesma pasta. -->
+        <Exec Command="xcopy /Y /i &quot;$(TargetDir)$(TargetName).dll&quot; &quot;$(MSBuildProjectDirectory)\..\RevitWireEditor.bundle\Contents\$(RevitVersion)\&quot;" ContinueOnError="true" />
+        <Exec Command="xcopy /Y /i &quot;$(TargetDir)$(TargetName).deps.json&quot; &quot;$(MSBuildProjectDirectory)\..\RevitWireEditor.bundle\Contents\$(RevitVersion)\&quot;" ContinueOnError="true" />
+    </Target>
+</Project>

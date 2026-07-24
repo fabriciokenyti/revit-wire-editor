@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RevitWireEditor.addin — Revit 2027 (net10.0-windows). DLL na mesma pasta. -->
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>RevitWireEditor</Name>
+    <Assembly>RevitWireEditor.dll</Assembly>
+    <FullClassName>RevitWireEditor.App</FullClassName>
+    <ClientId>b7e2a1c4-9f3d-4a6e-8c21-5d0f7a2b1e94</ClientId>
+    <VendorId>ENGM</VendorId>
+    <VendorDescription>Engenharia Moderna</VendorDescription>
+  </AddIn>
+</RevitAddIns>
