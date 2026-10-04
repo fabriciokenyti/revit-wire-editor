@@ -3,7 +3,7 @@
 import re, json, sys
 
 SRC = r"F:/Temp/claude/F--dev-RevitPlugins-expert-tools-ExpertTools/1faee0d3-e679-48b0-968e-82f433b1b5d8/scratchpad/dump-usable.txt"
-OUT = r"F:/dev/RevitPlugins/revit-wire-editor/RevitWireEditor/Resources/config-seed.json"
+OUT = r"C:/dev/RevitPlugins/revit-wire-editor/RevitWireEditor/Resources/config-seed.json"
 
 CLASSES = {"ConductorMaterial","ConductorSize","InsulationMaterial",
            "TemperatureRating","CableType","CableSize"}
